@@ -1,0 +1,22 @@
+{
+  "name": "visual-testing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "g:json": "npx ts-node generate-json.ts",
+    "g:spec": "npx ts-node generate-spec.ts",
+    "g:all": "npm run g:json && npm run g:spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.3",
+    "@types/xml2js": "^0.4.14"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
